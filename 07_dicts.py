@@ -6,7 +6,8 @@ my_other_dict = {}
 print(type(my_dict))
 print(tuple(my_other_dict))
 
-my_other_dict = {"Nombre": "Johann", "Apellido": "Filot", "Edad": 43, 1: "Python"}
+my_other_dict = {"Nombre": "Johann",
+                 "Apellido": "Filot", "Edad": 43, 1: "Python"}
 
 my_dict = {
     "Nombre": "Johann",
