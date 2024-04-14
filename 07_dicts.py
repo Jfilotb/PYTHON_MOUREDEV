@@ -19,6 +19,7 @@ my_dict = {
 
 print(my_other_dict)
 print(my_dict)
+print(my_dict)
 
 print(len(my_other_dict))
 print(len(my_dict))
