@@ -19,7 +19,7 @@ my_dict = {
 
 print(my_other_dict)
 print(my_dict)
-print(my_dict)
+
 
 print(len(my_other_dict))
 print(len(my_dict))
@@ -29,3 +29,13 @@ print(my_dict["Nombre"])
 print(my_dict[1])
 my_dict["Calle"] = "Calle enamorados"
 print(my_dict)
+
+del my_dict["Calle"]
+print(my_dict)
+
+print("Johann" in my_dict)
+print("Nombre" in my_dict)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
